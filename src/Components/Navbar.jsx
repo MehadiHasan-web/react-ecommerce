@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Navbar = () => {
+  
   return (
     <div className="bg-slate-300">
       {/* content section start */}
