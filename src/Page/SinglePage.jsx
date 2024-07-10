@@ -193,7 +193,7 @@ const SinglePage = () => {
                 <li className="text-sm sm:text-base md:text-xs lg:text-sm xl:text-lg">
                   Quantity (pieces)
                 </li>
-                <li className="flex gap-3 md:gap-2 xl:gap-5 items-center border-[1px] border-black px-4 md:px-2 lg:px-3 xl:px-4 py-1 md:py-[6px] rounded-md">
+                <li className="flex gap-3 md:gap-2 xl:gap-5 items-center border-[1px] border-slate-300 px-4 md:px-2 lg:px-3 xl:px-4 py-1 md:py-[6px] rounded-xl">
                   <FaMinus
                     className="text-xs sm:text-sm md:text-xs lg:text-sm xl:text-base"
                     onClick={() => decrementQuantity(quantity)}
@@ -209,7 +209,7 @@ const SinglePage = () => {
               </ul>
               <button
                 type="button"
-                className="bg-slate-900 w-full p-2 text-white rounded-md mt-3 md:mt-0 text-xs md:text-[9px] lg:text-[13px] xl:text-base"
+                className="bg-[#2A2C30] w-full p-2 text-white rounded-xl mt-3 md:mt-0 text-xs md:text-[9px] lg:text-[13px] xl:text-base"
               >
                 Add to Cart
               </button>
