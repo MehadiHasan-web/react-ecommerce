@@ -8,6 +8,12 @@ import {
   FaMinus,
 } from "react-icons/fa";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+
 const SinglePage = () => {
   const [quantity, setQuantity] = useState(1);
 
@@ -36,32 +42,70 @@ const SinglePage = () => {
               src={image}
               className="w-full h-44 sm:h-56 md:h-52 lg:h-60 xl:h-80 rounded-xl"
             ></img>
-            <ul className="flex gap-3 justify-between mt-3">
-              <li>
-                <img
-                  src={image}
-                  className="w-14 h-14 sm:w-14 sm:h-20 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-20 rounded-xl"
-                ></img>
-              </li>
-              <li>
-                <img
-                  src={image}
-                  className="w-14 h-14 sm:w-14 sm:h-20 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-20 rounded-xl"
-                ></img>
-              </li>
-              <li>
-                <img
-                  src={image}
-                  className="w-14 h-14 sm:w-14 sm:h-20 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-20 rounded-xl"
-                ></img>
-              </li>
-              <li>
-                <img
-                  src={image}
-                  className="w-14 h-14 sm:w-14 sm:h-20 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-20 rounded-xl"
-                ></img>
-              </li>
-            </ul>
+            <div className="overflow-hidden mt-3">
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              slidesPerView={1}
+              spaceBetween={10}
+              breakpoints={{
+                '@0.00': {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                '@0.75': {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                '@1.00': {
+                  slidesPerView: 3,
+                  spaceBetween: 10,
+                },
+                '@1.50': {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+              }}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+              src={image}
+              className="w-full h-20 rounded-xl"
+            ></img>
+              </SwiperSlide>
+            </Swiper>
+            </div>
           </div>
           {/* left item section end */}
           {/* right item section start */}
