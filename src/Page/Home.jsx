@@ -1,12 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProvider";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 import Products from "@/components/Products";
+
 
 
 const Home = () => {
@@ -17,9 +12,6 @@ const Home = () => {
   return (
     <div className="container">
       <Products />
-
-
-
     </div>
   );
 };
