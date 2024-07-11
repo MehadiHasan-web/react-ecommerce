@@ -1,7 +1,8 @@
-import {createBrowserRouter} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Layout from './../Layout/Layout';
 import Home from "../Page/Home";
 import SinglePage from "../Page/SinglePage";
+import Card from "@/Page/Card";
 
 
 export const router = createBrowserRouter([
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
       {
         path: "/single-page",
         element: <SinglePage></SinglePage>,
+      },
+      {
+        path: "/card",
+        element: <Card></Card>,
       },
     ],
   },
