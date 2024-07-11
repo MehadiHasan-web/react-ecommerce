@@ -59,14 +59,14 @@ const ShopPage = () => {
             </div>
             {/* items data show and sorting end */}
             {/* filter section start */}
-            <div className="my-3 flex justify-start items-center gap-1 w-full">
+            <div className="my-3 flex justify-start sm:items-center gap-1 w-full">
               {/* title start */}
-              <p className="text-sm xl:text-xl w-[50%] sm:w-[25%]">Applied Filters : </p>
+              <p className="text-sm xl:text-xl w-40">Applied Filters : </p>
               {/* title end */}
               {/* filter data section start */}
-              <div className="grid grid-cols-2 sm:grid-cols-5 w-full">
+              <div className="flex flex-wrap gap-2 w-full">
                 {/* 1 */}
-              <div className="badge gap-2 p-2">
+              <span className="badge gap-2 p-2">
                   <span className="text-xs xl:text-lg">Tops</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const ShopPage = () => {
                       d="M6 18L18 6M6 6l12 12"
                     ></path>
                   </svg>
-                </div>
+                </span>
                 {/* 1 */}
                 {/* 1 */}
               <div className="badge gap-2 p-2">

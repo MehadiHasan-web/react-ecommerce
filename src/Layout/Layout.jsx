@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div>
       {/* navbar section start */}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       {/* navbar section end */}
       {/* components section start */}
       <Outlet></Outlet>
