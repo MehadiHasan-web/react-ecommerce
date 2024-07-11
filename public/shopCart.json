@@ -33,5 +33,26 @@
     "photo": "../public/shopCart/5.png",
     "price" : 90,
     "color" : 8
+  },
+  {
+    "id": "668f7f4f52a96c40bbb71122",
+    "name": "Taylor Morris",
+    "photo": "../public/shopCart/3.png",
+    "price" : 160,
+    "color" : 3
+  },
+  {
+    "id": "668f7f4ff732dcf46ee95448",
+    "name": "Sandra Gay",
+    "photo": "../public/shopCart/4.png",
+    "price" : 30,
+    "color" : 5
+  },
+  {
+    "id": "668f7f4f0573e3ca0a5c5589",
+    "name": "Jeanette Andrews",
+    "photo": "../public/shopCart/5.png",
+    "price" : 90,
+    "color" : 8
   }
 ]

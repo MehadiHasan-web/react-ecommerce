@@ -124,11 +124,10 @@ const ShopPage = () => {
             </div>
             {/* filter section end */}
             {/* cart section start */}
-            <div className="grid xl:grid-cols-4 gap-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-3 sm:gap-3 md:gap-3 lg:gap-3 xl:gap-5 2xl:gap-3">
               {
                 shopData.map((data, index) => <ShopCart key={index} data={data}></ShopCart>)
               }
-              
             </div>
             {/* cart section end */}
           </div>
