@@ -1,0 +1,37 @@
+[
+  {
+    "id": "668f7f4f89eea93ca5316698",
+    "name": "Terrell Rosa",
+    "photo": "../public/shopCart/1.png",
+    "price" : 290,
+    "color" : 3
+  },
+  {
+    "id": "668f7f4f934f570dc60a64d2",
+    "name": "Stewart Campbell",
+    "photo": "../public/shopCart/2.png",
+    "price" : 200,
+    "color" : 1
+  },
+  {
+    "id": "668f7f4f52a96c40bbb711d7",
+    "name": "Taylor Morris",
+    "photo": "../public/shopCart/3.png",
+    "price" : 160,
+    "color" : 3
+  },
+  {
+    "id": "668f7f4ff732dcf46ee954d9",
+    "name": "Sandra Gay",
+    "photo": "../public/shopCart/4.png",
+    "price" : 30,
+    "color" : 5
+  },
+  {
+    "id": "668f7f4f0573e3ca0a5c55d8",
+    "name": "Jeanette Andrews",
+    "photo": "../public/shopCart/5.png",
+    "price" : 90,
+    "color" : 8
+  }
+]
