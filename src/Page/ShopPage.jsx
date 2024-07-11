@@ -7,6 +7,7 @@ const ShopPage = () => {
 
   const [shopData, setShopData] =useState([])
 
+  
 
   useEffect(() => {
     fetch('shopCart.json')
