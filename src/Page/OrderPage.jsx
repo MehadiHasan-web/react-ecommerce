@@ -1,4 +1,5 @@
 import product from '../../public/shopCart/1.png'
+import product2 from '../../public/shopCart/3.png'
 
 const OrderPage = () => {
   return (
@@ -59,18 +60,51 @@ const OrderPage = () => {
             </div>
             {/* userData section end */}
             {/* card section start */}
-            <div className="w-full md:w-[45%] lg:w-[40%]">
-              <div className="p-5 bg-base-100 rounded-lg shadow-lg">
-                <ul className=" flex  justify-between items-center my-1">
-                  <li>
-                    <img src={product} className='w-20 h-14 rounded-md border-[1px] border-slate-300'></img>
+            <div className="w-full mt-10 md:w-[45%] lg:w-[40%]">
+              <div className="p-3 sm:p-5 bg-base-100 rounded-lg shadow-lg">
+                {/* data section start */}
+                <ul className="flex justify-between items-center mb-4">
+                  <li className='relative'>
+                    <img src={product} className='w-14 h-12 sm:w-20 sm:h-14 md:w-14 md:h-12 lg:w-20 lg:h-12 xl:w-24 xl:h-14 rounded-md border-[1px] border-slate-300'></img>
+                    <p className='border-[1px] border-slate-400 rounded-full w-5 h-5 sm:w-6 sm:h-6 md:w-5 md:h-5 flex justify-center items-center absolute -top-3 -right-3 bg-white text-xs lg:text-xs xl:text-sm'>1</p>
                   </li>
                   <li>
-                    <p className="xl:text-sm font-semibold">Dunk Low Light Bone</p>
-                    <p className="xl:text-sm text-slate-500">36 EU - 4 Us</p>
+                    <p className="text-[10px] sm:text-sm md:text-[11px] lg:text-xs xl:text-base font-semibold">Dunk Low Light Bone</p>
+                    <p className="text-[10px] sm:text-sm md:text-[11px] lg:text-xs xl:text-base text-slate-500">36 EU - 4 Us</p>
                   </li>
-                  <li className="xl:text-base font-bold">$1400.00</li>
+                  <li className="text-[11px] sm:text-sm md:text-xs lg:text-xs xl:text-base font-bold">$1400.00</li>
                 </ul>
+
+                {/* data section start */}
+                {/* divider section start */}
+                <div className="divider"></div>
+                {/* divider section end */}
+                {/* subtotal and shipping section start */}
+                <ul className='space-y-1'>
+                  <li className='flex items-center justify-between'>
+                    <p className='text-sm sm:text-base md:text-sm lg:text-base xl:text-lg text-slate-400 font-medium'>Subtotal</p>
+                    <p className='text-sm sm:text-base md:text-sm lg:text-base xl:text-lg text-black font-semibold'>$3000.00</p>
+                  </li>
+                  <li className='flex items-center justify-between'>
+                    <p className='text-sm sm:text-base md:text-sm lg:text-base xl:text-lg text-slate-400 font-medium'>Shipping</p>
+                    <p className='text-sm sm:text-base md:text-sm lg:text-base xl:text-lg text-black font-semibold'>$800.00</p>
+                  </li>
+                </ul>
+                {/* subtotal and shipping section end */}
+                {/* divider section start */}
+                <div className="divider"></div>
+                {/* divider section end */}
+                {/* total section start */}
+                <ul>
+                  <li className='flex items-center justify-between'>
+                    <p className='text-sm sm:text-base md:text-sm lg:text-base xl:text-lg font-medium'>Total</p>
+                    <p><span className='text-sm text-slate-400'>EUR</span><span className='text-lg sm:text-xl md:text-lg lg:text-xl xl:text-2xl ml-2'>$3000.00</span></p>
+                  </li>
+                </ul>
+                {/* total section end */}
+                {/* button section start */}
+                <button className="btn btn-sm btn-neutral w-full mt-4">Order Now</button>
+                {/* button section end */}
               </div>
             </div>
             {/* section end */}
