@@ -4,6 +4,7 @@ import Home from "../Page/Home";
 import SinglePage from "../Page/SinglePage";
 import Card from "@/Page/Card";
 import ShopPage from "@/Page/ShopPage";
+import OrderPage from "@/Page/OrderPage";
 
 
 export const router = createBrowserRouter([
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/shop-page",
         element: <ShopPage></ShopPage>,
+      },
+      {
+        path: "/order-page",
+        element: <OrderPage></OrderPage>,
       },
     ],
   },
