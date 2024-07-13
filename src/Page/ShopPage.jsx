@@ -19,11 +19,11 @@ const ShopPage = () => {
           {/* shopSidebar section start */}
           <div className="hidden md:block md:w-[20%]">
             <div className="border-base-300 border p-5">
-              <details className="collapse collapse-arrow  rounded-md border-base-300">
-                <summary className="collapse-title text-sm bg-slate-100 font-medium ">
+              <details className="collapse  rounded-md border-base-300 mb-2 border ">
+                <summary className="collapse-title text-sm bg-slate-100 font-medium py-2 h-8 ">
                   Men
                 </summary>
-                <div className="collapse-content py-2">
+                <div className="collapse-content py-2 ">
                   <ul className="space-y-1">
                     <li className="flex items-center gap-2"><input type="checkbox" defaultChecked className="checkbox checkbox-sm" /><span className="text-sm">one</span></li>
                     <li className="flex items-center gap-2"><input type="checkbox" defaultChecked className="checkbox checkbox-sm" /><span className="text-sm">two</span></li>

@@ -4,8 +4,8 @@ import { Badge } from "@/components/ui/badge"
 
 function Products() {
     return (
-        <div>
-            <div className="grid grid-cols-4  gap-2 mt-4">
+        <div >
+            <div className="grid grid-cols-4  gap-2 mt-4 ">
                 <div>
                     <div>
                         <div className='relative '>
