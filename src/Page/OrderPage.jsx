@@ -35,6 +35,30 @@ const OrderPage = () => {
                   />
                 </div>
               </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap">
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text">Thana:</span>
+                  </label>
+                  <input
+                    type="text"
+                    defaultValue={"CEPZ"}
+                    placeholder="enter your thana"
+                    className="input input-bordered"
+                  />
+                </div>
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text">City:</span>
+                  </label>
+                  <input
+                    type="text"
+                    defaultValue={"Chattagram"}
+                    placeholder="enter your city"
+                    className="input input-bordered"
+                  />
+                </div>
+              </div>
               <div className="grid grid-cols-1">
                 <div className="form-control">
                   <label className="label">
@@ -46,14 +70,16 @@ const OrderPage = () => {
                   ></textarea>
                 </div>
               </div>
-              <div className="grid grid-cols-1">
-                <div className="form-control">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-2 lg:gap">
+              <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Profile:</span>
+                    <span className="label-text">Phone:</span>
                   </label>
                   <input
-                    type="file"
-                    className="file-input file-input-bordered file-input-md w-full"
+                    type="number"
+                    defaultValue={""}
+                    placeholder="enter your phone number"
+                    className="input input-bordered"
                   />
                 </div>
               </div>
