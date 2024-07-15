@@ -1,4 +1,5 @@
 import { IoMdCloseCircleOutline } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 function Card() {
@@ -58,6 +59,10 @@ function Card() {
 
                     </tbody>
                 </table>
+                <div className="w-full text-end mt-3">
+                <Link to="/order-page">
+                <button className="btn btn-error btn-sm text-white">Order</button></Link>
+                </div>
             </div>
 
         </div>
