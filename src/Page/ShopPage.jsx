@@ -20,7 +20,7 @@ const ShopPage = () => {
           <div className="hidden md:block md:w-[20%]">
             <div className="border-base-300 border p-5">
               <details className="collapse  rounded-md border-base-300 mb-2 border ">
-                <summary className="collapse-title text-sm bg-slate-100 font-medium py-2 h-8 ">
+                <summary className="collapse-title text-sm bg-slate-100 font-medium py-2 h-4 ">
                   Men
                 </summary>
                 <div className="collapse-content py-2 ">
